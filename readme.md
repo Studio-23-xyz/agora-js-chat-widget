@@ -20,7 +20,9 @@ See more information in the [Developer Documentation](https://github.com/Studio-
 # Features
 
 - Can view all users.
--
+- Real time messaging.
+- Audio and video call.
+- File / Image Sha
 
 # External Libraries
 

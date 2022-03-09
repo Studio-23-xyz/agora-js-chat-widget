@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <style>
       body {
         background: url(./webpage.png);
@@ -15,34 +16,26 @@
     </style>
     <title>Chatbox</title>
   </head>
-
   <body>
-    <!-- <button id="login">login</button>
-    <button id="logout">logout</button> -->
-
     <div id="bs__chat__root" class="cems__container"></div>
 
     <script src="https://cdn.jsdelivr.net/gh/moshiuzzaman/CDN@master/agora-rtm-sdk-1.4.4.js"></script>
     <script src="https://download.agora.io/sdk/release/AgoraRTC_N-4.8.1.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/moshiuzzaman/CDN@master/bsagorasdk-1.5.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/moshiuzzaman/CDN@master/bsagorasdk-1.6.min.js"></script>
     <script>
       let email = "user1@gmail.com";
       let pass = "123456";
-      // let rington = "https://d6cp9b00-a.akamaihd.net/downloads/ringtones/files/dl/mp3/ellie-goulding-love-me-like-you-do-ringtone-2310-dmr-56443.mp3";
-      let rington = "https://nf1f8200-a.akamaihd.net/downloads/ringtones/files/dl/mp3/baby2-4841-49732-53211.mp3";
+      let rington =
+        "https://pl3dxz-a.akamaihd.net/downloads/ringtones/files/mp3/18862-download-dj-best-baby-laughing-remix-mobile-ringtone-ringtone-funny-r-53413.mp3";
       let callerTune = "https://audio.jukehost.co.uk/2OdnBtHkBRWn76r6YiNesNpb5PTNEg5b";
       let tokenUrl = "https://agora-token-generator-bs23.herokuapp.com";
+      // let appId = "32ce8b468e644fb6986400e62b7a6486";
+      // let appCertificate = "ade354e7ecc844cba44732b2c1b699b6";
       let appId = "615561036b0247abb29ba57b6955e1e0";
       let appCertificate = "19b3864a40d04e949611b93c8e337257";
       // paramiter formate (email, pass, appId, rington, callerTune, tokenUrl, appCertificate)
       bsChatInit(email, pass, appId, tokenUrl, appCertificate, rington, callerTune);
-      document.getElementById("login").addEventListener("click", () => {
-        bsChatInit(email, pass, appId, tokenUrl, appCertificate, rington, callerTune);
-      });
-      document.getElementById("logout").addEventListener("click", () => {
-        logoutFromAgora();
-      });
     </script>
   </body>
 </html>
