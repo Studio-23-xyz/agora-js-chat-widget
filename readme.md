@@ -4,7 +4,7 @@
 
 # Example
 
-![This is an image](https://github.com/Studio-23-xyz/agora-js-chat-widget/raw/master/chatDemo.PNG)
+![This is an image](https://github.com/Studio-23-xyz/agora-js-chat-widget/raw/master/chatDemoNew.PNG)
 
 [Check the live version!](https://studio-23-xyz.github.io/agora-js-chat-widget)
 
