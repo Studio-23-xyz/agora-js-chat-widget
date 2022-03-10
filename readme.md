@@ -22,7 +22,10 @@ See more information in the [Developer Documentation](https://github.com/Studio-
 - Can view all users.
 - Real time messaging.
 - Audio and video call.
-- File / Image Sha
+- File / Image Sharing.
+- Incoming and outgoing call callertune / rington .
+- Unread message count notification.
+- User Online / offline panel show.
 
 # External Libraries
 
